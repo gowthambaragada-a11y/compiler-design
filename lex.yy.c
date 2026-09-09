@@ -28,7 +28,7 @@
 #ifndef FLEXINT_H
 #define FLEXINT_H
 
-/* C99 systems have <inttypes.h>. Non-C99 systems may or may not. */
+/* C99 systems have <inttypes.h>. Non-C99 systems may or may not. `*/
 
 #if defined (__STDC_VERSION__) && __STDC_VERSION__ >= 199901L
 
