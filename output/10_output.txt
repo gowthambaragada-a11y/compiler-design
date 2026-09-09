@@ -1,0 +1,9 @@
+Input:
+while (x>0) begin y=y+1; end
+
+Output:
+Valid while-loop syntax:
+while (x>0) begin y=y+1; end
+
+Explanation:
+This Lex program uses regular expressions to match and verify a strict custom while-loop syntax: "while (condition) begin statement; end". It rejects strings that do not precisely fit this structural pattern.

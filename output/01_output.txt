@@ -1,0 +1,12 @@
+Input:
+int count = 10;
+
+Output:
+KEYWORD: int
+IDENTIFIER: count
+SYMBOL: =
+NUMBER: 10
+SYMBOL: ;
+
+Explanation:
+This Lex program scans an input string for C keywords, identifiers, numeric literals, and special symbols. It uses regular expressions to categorize and print the type of each matched token.

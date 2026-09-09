@@ -1,0 +1,8 @@
+Input:
+ccd
+
+Output:
+Accepted by SLR(1) parser
+
+Explanation:
+This program simulates an SLR(1) bottom-up parser using a precomputed action-goto table. It shifts input characters onto a stack and reduces them using grammar rules depending on the current state and lookahead symbol.

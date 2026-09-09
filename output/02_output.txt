@@ -1,0 +1,8 @@
+Input:
+i+i*i
+
+Output:
+Accepted
+
+Explanation:
+This Lex program implements a predictive top-down recursive descent parser for an unambiguous context-free grammar. Functions E(), R(), T(), S(), and F() represent the non-terminals and match the input to determine if it is syntactically correct.

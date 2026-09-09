@@ -1,0 +1,10 @@
+Input:
+a+b*c
+
+Output:
+Three Address Code:
+t1 = b * c
+t2 = a + t1
+
+Explanation:
+This program generates intermediate Three Address Code (TAC) from a given arithmetic expression. It enforces operator precedence by scanning and replacing multiplications/divisions first with temporary variables (e.g., t1), followed by additions/subtractions.

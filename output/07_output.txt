@@ -1,0 +1,8 @@
+Input:
+i+i
+
+Output:
+Accepted by LL(1) parser
+
+Explanation:
+This program implements an LL(1) top-down parser. It maintains a stack initialized with the start symbol and recursively expands non-terminals using predictive parsing rules based on the current input lookahead character.

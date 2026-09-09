@@ -1,0 +1,8 @@
+Input:
+x = 25 ;
+
+Output:
+Valid mini-language assignment statement: x = 25 ;
+
+Explanation:
+This Lex program validates if a given input matches a predefined mini-language assignment statement format (identifier = value ;) using a simple regular expression.

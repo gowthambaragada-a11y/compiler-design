@@ -1,0 +1,8 @@
+Input:
+2+3*4
+
+Output:
+Result = 14.00
+
+Explanation:
+This Lex program functions as an operator precedence calculator. It uses two parallel stacks—one for numeric operands and one for operators. It evaluates the expression while properly respecting the mathematical precedence of operators.

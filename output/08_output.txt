@@ -1,0 +1,8 @@
+Input:
+i*(i+i)
+
+Output:
+Accepted by recursive descent parser
+
+Explanation:
+This program implements a recursive descent parser. The parsing logic is divided into mutually recursive functions (E, T, F) mirroring the context-free grammar to successfully parse and validate the input arithmetic expression.

@@ -1,0 +1,8 @@
+Input:
+i+i*i
+
+Output:
+Accepted by bottom-up parser
+
+Explanation:
+This program acts as a shift-reduce (LALR-style) parser. It pushes input characters onto a stack and repeatedly applies reduction rules matching the right-hand sides of grammar productions until the stack reduces to the start symbol 'E'.
